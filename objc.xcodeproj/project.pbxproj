@@ -173,6 +173,14 @@
 		9672F7EE14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
 		F9BCC71B205C68E800DD9AFC /* objc-blocktramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 8379996D13CBAF6F007C2B5F /* objc-blocktramps-arm64.s */; };
+		FCAA292E23A139DC00F750A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA292D23A139DC00F750A7 /* AppDelegate.m */; };
+		FCAA293123A139DC00F750A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA293023A139DC00F750A7 /* ViewController.m */; };
+		FCAA293323A139DD00F750A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAA293223A139DD00F750A7 /* Assets.xcassets */; };
+		FCAA293623A139DD00F750A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAA293423A139DD00F750A7 /* Main.storyboard */; };
+		FCAA293923A139DD00F750A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA293823A139DD00F750A7 /* main.m */; };
+		FCAA294423A139DD00F750A7 /* OjbcResearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA294323A139DD00F750A7 /* OjbcResearchTests.m */; };
+		FCAA294F23A139DD00F750A7 /* OjbcResearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA294E23A139DD00F750A7 /* OjbcResearchUITests.m */; };
+		FCAA295C23A13BC900F750A7 /* ClassResearch.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA295B23A13BC900F750A7 /* ClassResearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +197,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = F9BCC6CA205C68E800DD9AFC;
 			remoteInfo = "objc-trampolines";
+		};
+		FCAA294023A139DD00F750A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAA292923A139DC00F750A7;
+			remoteInfo = OjbcResearch;
+		};
+		FCAA294B23A139DD00F750A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAA292923A139DC00F750A7;
+			remoteInfo = OjbcResearch;
+		};
+		FCAA295D23A13C1E00F750A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0620554660B00DB518D;
+			remoteInfo = objc;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -367,6 +396,24 @@
 		E8923D9D116AB2820071B552 /* objc-blocktramps-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-x86_64.s"; path = "runtime/objc-blocktramps-x86_64.s"; sourceTree = "<group>"; };
 		E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-block-trampolines.mm"; path = "runtime/objc-block-trampolines.mm"; sourceTree = "<group>"; };
 		F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libobjc-trampolines.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA292A23A139DC00F750A7 /* OjbcResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OjbcResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA292C23A139DC00F750A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCAA292D23A139DC00F750A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCAA292F23A139DC00F750A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCAA293023A139DC00F750A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCAA293223A139DD00F750A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAA293523A139DD00F750A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAA293723A139DD00F750A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA293823A139DD00F750A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCAA293A23A139DD00F750A7 /* OjbcResearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OjbcResearch.entitlements; sourceTree = "<group>"; };
+		FCAA293F23A139DD00F750A7 /* OjbcResearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjbcResearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA294323A139DD00F750A7 /* OjbcResearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjbcResearchTests.m; sourceTree = "<group>"; };
+		FCAA294523A139DD00F750A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA294A23A139DD00F750A7 /* OjbcResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjbcResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA294E23A139DD00F750A7 /* OjbcResearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OjbcResearchUITests.m; sourceTree = "<group>"; };
+		FCAA295023A139DD00F750A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA295A23A13BC900F750A7 /* ClassResearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassResearch.h; sourceTree = "<group>"; };
+		FCAA295B23A13BC900F750A7 /* ClassResearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassResearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,6 +438,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCAA292723A139DC00F750A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA293C23A139DD00F750A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA294723A139DD00F750A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -407,6 +475,9 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				838485B20D6D67F900CEA253 /* Other */,
 				30466D8521B665A500DA7B9D /* debug-objc */,
+				FCAA292B23A139DC00F750A7 /* OjbcResearch */,
+				FCAA294223A139DD00F750A7 /* OjbcResearchTests */,
+				FCAA294D23A139DD00F750A7 /* OjbcResearchUITests */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				F9BCC72A205C6A1600DD9AFC /* Frameworks */,
 			);
@@ -470,6 +541,9 @@
 				D2AAC0630554660B00DB518D /* libobjc.A.dylib */,
 				F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */,
 				30466D8421B665A500DA7B9D /* debug-objc */,
+				FCAA292A23A139DC00F750A7 /* OjbcResearch.app */,
+				FCAA293F23A139DD00F750A7 /* OjbcResearchTests.xctest */,
+				FCAA294A23A139DD00F750A7 /* OjbcResearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -755,6 +829,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FCAA292B23A139DC00F750A7 /* OjbcResearch */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA292C23A139DC00F750A7 /* AppDelegate.h */,
+				FCAA292D23A139DC00F750A7 /* AppDelegate.m */,
+				FCAA292F23A139DC00F750A7 /* ViewController.h */,
+				FCAA293023A139DC00F750A7 /* ViewController.m */,
+				FCAA295A23A13BC900F750A7 /* ClassResearch.h */,
+				FCAA295B23A13BC900F750A7 /* ClassResearch.m */,
+				FCAA293223A139DD00F750A7 /* Assets.xcassets */,
+				FCAA293423A139DD00F750A7 /* Main.storyboard */,
+				FCAA293723A139DD00F750A7 /* Info.plist */,
+				FCAA293823A139DD00F750A7 /* main.m */,
+				FCAA293A23A139DD00F750A7 /* OjbcResearch.entitlements */,
+			);
+			path = OjbcResearch;
+			sourceTree = "<group>";
+		};
+		FCAA294223A139DD00F750A7 /* OjbcResearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA294323A139DD00F750A7 /* OjbcResearchTests.m */,
+				FCAA294523A139DD00F750A7 /* Info.plist */,
+			);
+			path = OjbcResearchTests;
+			sourceTree = "<group>";
+		};
+		FCAA294D23A139DD00F750A7 /* OjbcResearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA294E23A139DD00F750A7 /* OjbcResearchUITests.m */,
+				FCAA295023A139DD00F750A7 /* Info.plist */,
+			);
+			path = OjbcResearchUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -933,6 +1043,60 @@
 			productReference = F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		FCAA292923A139DC00F750A7 /* OjbcResearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAA295723A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearch" */;
+			buildPhases = (
+				FCAA292623A139DC00F750A7 /* Sources */,
+				FCAA292723A139DC00F750A7 /* Frameworks */,
+				FCAA292823A139DC00F750A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAA295E23A13C1E00F750A7 /* PBXTargetDependency */,
+			);
+			name = OjbcResearch;
+			productName = OjbcResearch;
+			productReference = FCAA292A23A139DC00F750A7 /* OjbcResearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAA293E23A139DD00F750A7 /* OjbcResearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAA295823A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearchTests" */;
+			buildPhases = (
+				FCAA293B23A139DD00F750A7 /* Sources */,
+				FCAA293C23A139DD00F750A7 /* Frameworks */,
+				FCAA293D23A139DD00F750A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAA294123A139DD00F750A7 /* PBXTargetDependency */,
+			);
+			name = OjbcResearchTests;
+			productName = OjbcResearchTests;
+			productReference = FCAA293F23A139DD00F750A7 /* OjbcResearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCAA294923A139DD00F750A7 /* OjbcResearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAA295923A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearchUITests" */;
+			buildPhases = (
+				FCAA294623A139DD00F750A7 /* Sources */,
+				FCAA294723A139DD00F750A7 /* Frameworks */,
+				FCAA294823A139DD00F750A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAA294C23A139DD00F750A7 /* PBXTargetDependency */,
+			);
+			name = OjbcResearchUITests;
+			productName = OjbcResearchUITests;
+			productReference = FCAA294A23A139DD00F750A7 /* OjbcResearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -950,6 +1114,20 @@
 					837F67A81A771F63004D34FA = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					FCAA292923A139DC00F750A7 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+					};
+					FCAA293E23A139DD00F750A7 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAA292923A139DC00F750A7;
+					};
+					FCAA294923A139DD00F750A7 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAA292923A139DC00F750A7;
+					};
 				};
 			};
 			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "objc" */;
@@ -961,6 +1139,7 @@
 				Japanese,
 				French,
 				German,
+				Base,
 			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* objc */;
 			projectDirPath = "";
@@ -970,9 +1149,38 @@
 				837F67A81A771F63004D34FA /* objc-simulator */,
 				F9BCC6CA205C68E800DD9AFC /* objc-trampolines */,
 				30466D8321B665A500DA7B9D /* debug-objc */,
+				FCAA292923A139DC00F750A7 /* OjbcResearch */,
+				FCAA293E23A139DD00F750A7 /* OjbcResearchTests */,
+				FCAA294923A139DD00F750A7 /* OjbcResearchUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAA292823A139DC00F750A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA293323A139DD00F750A7 /* Assets.xcassets in Resources */,
+				FCAA293623A139DD00F750A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA293D23A139DD00F750A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA294823A139DD00F750A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		830F2AB60D739AB600392440 /* Run Script (markgc) */ = {
@@ -1076,6 +1284,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCAA292623A139DC00F750A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA293123A139DC00F750A7 /* ViewController.m in Sources */,
+				FCAA295C23A13BC900F750A7 /* ClassResearch.m in Sources */,
+				FCAA293923A139DD00F750A7 /* main.m in Sources */,
+				FCAA292E23A139DC00F750A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA293B23A139DD00F750A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA294423A139DD00F750A7 /* OjbcResearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA294623A139DD00F750A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA294F23A139DD00F750A7 /* OjbcResearchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1089,7 +1324,33 @@
 			target = F9BCC6CA205C68E800DD9AFC /* objc-trampolines */;
 			targetProxy = F9BCC728205C6A0900DD9AFC /* PBXContainerItemProxy */;
 		};
+		FCAA294123A139DD00F750A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAA292923A139DC00F750A7 /* OjbcResearch */;
+			targetProxy = FCAA294023A139DD00F750A7 /* PBXContainerItemProxy */;
+		};
+		FCAA294C23A139DD00F750A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAA292923A139DC00F750A7 /* OjbcResearch */;
+			targetProxy = FCAA294B23A139DD00F750A7 /* PBXContainerItemProxy */;
+		};
+		FCAA295E23A13C1E00F750A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC0620554660B00DB518D /* objc */;
+			targetProxy = FCAA295D23A13C1E00F750A7 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAA293423A139DD00F750A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAA293523A139DD00F750A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB914B08733D8E0010E9CD /* Debug */ = {
@@ -1533,6 +1794,346 @@
 			};
 			name = Release;
 		};
+		FCAA295123A139DD00F750A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = OjbcResearch/OjbcResearch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCAA295223A139DD00F750A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = OjbcResearch/OjbcResearch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCAA295323A139DD00F750A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjbcResearch.app/Contents/MacOS/OjbcResearch";
+			};
+			name = Debug;
+		};
+		FCAA295423A139DD00F750A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjbcResearch.app/Contents/MacOS/OjbcResearch";
+			};
+			name = Release;
+		};
+		FCAA295523A139DD00F750A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OjbcResearch;
+			};
+			name = Debug;
+		};
+		FCAA295623A139DD00F750A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = OjbcResearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.OjbcResearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OjbcResearch;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1577,6 +2178,33 @@
 			buildConfigurations = (
 				F9BCC725205C68E800DD9AFC /* Debug */,
 				F9BCC726205C68E800DD9AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAA295723A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA295123A139DD00F750A7 /* Debug */,
+				FCAA295223A139DD00F750A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAA295823A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA295323A139DD00F750A7 /* Debug */,
+				FCAA295423A139DD00F750A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAA295923A139DD00F750A7 /* Build configuration list for PBXNativeTarget "OjbcResearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA295523A139DD00F750A7 /* Debug */,
+				FCAA295623A139DD00F750A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
